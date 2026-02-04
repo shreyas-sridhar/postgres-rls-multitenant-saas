@@ -98,7 +98,7 @@ The system operates on a **Shared Database, Shared Schema** model. Security is e
 
 By anchoring security in the database, the system provides a fail-safe mechanism. Even if a developer omits a tenant filter in a SQLAlchemy query, the database will inherently restrict the result set to the authorized tenant context.
 
-Future:
+## Future Additions:
 1. Plan to add feature like git blame to store who accessed data outside their paygrade for a lack of a better term (Priority 1)
 2. Will also add role separation (p3)
 3. A frontend might help as well (P2)
