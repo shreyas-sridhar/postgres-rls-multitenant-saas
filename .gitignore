@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.DS_Store
+.vscode/
+.idea/
+instance/
+flask_session/
+*.log
